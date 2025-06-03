@@ -5,8 +5,11 @@ permalink: "blog/pre-requisites/complex-numbers"
 ---
 
 # Complex Numbers
-Complex Number is a mathematical object which is a combination of a Real numbers and a Imaginary number. A Complex Number, usually, written in the form of $a + bi$, where a, b are Real Numbers and i is the iota (i = sqrt(-1)). Here a will be said as the real part of the Complex Number and b as the Imaginary part of the Complex Number.
+Complex Number is a mathematical object which is a combination of a Real numbers and a Imaginary number. A Complex Number, usually, written in the form of \\( a + b \iota \\), where \\(a, b \in \mathbb{R}\\) and \\(\iota\\) is the `iota`. Here \\(a\\) is the `real part` of the complex number and \\(b\\) is the `imaginary part` of the complex number.
 
-Formally defined, a Complex Number is an ordered pair (a, b), where a, b are Real Numbers.
-The set of all complex numbers is represented by C:
-        C = {a + bi : a, b in R }
+**Formal Definition:**
+> A Complex Number is an ordered pair \\((a, b)\\), \\(a, b \in \mathbb{R}\\).
+The set of all complex numbers is represented by \\(\mathbb{C}\\):
+        \\[\mathbb{C} = {a + b\iota : a, b \in \mathbb{R} }\\]
+
+By using the above definition, we can write any `real number` **a** as \\((a, 0)\\) whereas any `imaginary number` **b**\\(\iota\\) can be written as \\((0, b)\\).
