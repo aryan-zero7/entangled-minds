@@ -22,8 +22,8 @@ title: Entangled Minds
 email: entangled.mindss@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Learn Quantum Computing with Entangled Minds! Explore clear tutorials on quantum basics, linear algebra, superposition & more. Start your quantum journey today.
-baseurl: "entangled-minds" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/entangled-minds" # the subpath of your site, e.g. /blog
+url: "https://aryan-zero7.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: 
 
