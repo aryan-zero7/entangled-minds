@@ -11,7 +11,3 @@ tutorial-categories:
     - Quantum Gates and Circuits
     - Quantum Algorithms
 ---
-
-# Welcome to Entangled Minds!
-
-Learn Quantum Computing with Entangled Minds! Explore clear tutorials on quantum basics, linear algebra, superposition & more. Start your quantum journey today.

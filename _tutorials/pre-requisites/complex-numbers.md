@@ -19,7 +19,7 @@ The set of all complex numbers is represented by \\(\mathbb{C}\\):
 By using the above definition, we can write any `real number` **a** as \\((a, 0)\\) whereas any `imaginary number` **b**\\(\iota\\) can be written as \\((0, b)\\).
 
 <div style="height: 64px"></div>
-![complex number graphical representation](/assets/images/complex-number.png)
+![complex number graphical representation]({{ '/assets/images/complex-number.png' | relative_url }})
 *Figure 1: Graphical representation of a complex number.*
 <div style="height: 64px"></div>
 
