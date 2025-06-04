@@ -1,0 +1,71 @@
+.category-summary {
+  display: flex; /* Make summary a flex container */
+  align-items: center; /* Vertically align items in the middle */
+  cursor: pointer; /* Indicate it's clickable */
+  list-style: none; /* Hide the default arrow/disclosure triangle */
+  padding-left: 0; /* Remove default padding from summary */
+  margin-left: 0; /* Remove default margin */
+}
+
+/* Remove default summary marker in Webkit browsers */
+.category-summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Remove default summary marker in Firefox */
+.category-summary::marker {
+  content: "";
+  display: none;
+}
+
+/* Style the H2 inside summary */
+.category-summary h2 {
+  flex-grow: 1; /* Allow h2 to take up available space */
+  margin: 0; /* Remove default h2 margin */
+  padding: 0;
+  margin-top: 20px; /* Adjust spacing as needed */
+  margin-bottom: 10px; /* Adjust spacing as needed */
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+/* Add your own custom arrow using a pseudo-element */
+.category-summary::before {
+  content: '▶'; /* Default: right arrow for collapsed state */
+  font-size: 0.8em; /* Adjust size */
+  margin-right: 8px; /* Space between arrow and title */
+  transition: transform 0.2s ease-in-out; /* Smooth rotation */
+  transform-origin: center; /* Ensure rotation is centered */
+  color: #555; /* Arrow color */
+}
+
+/* Rotate arrow when details is open */
+.category-details[open] > .category-summary::before {
+  content: '▼'; /* Down arrow for expanded state */
+}
+
+/* Styling for the list itself (ensure it aligns with your theme) */
+.category-posts-list {
+  list-style: disc;
+  padding-left: 40px; /* Indent posts */
+  margin-top: 0; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+.category-posts-list li {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.category-posts-list h3 {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.category-posts-list .post-link {
+  text-decoration: none;
+  color: #007bff;
+  &:hover {
+    text-decoration: underline;
+  }
+}
